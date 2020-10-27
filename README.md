@@ -23,3 +23,7 @@ Rayan Ahmedy
 Run the following command:
 ``` npm start ```
 
+## Contact 
+rayanahmedy1999@gmail.com
+Github: https://github.com/rahmedy
+
