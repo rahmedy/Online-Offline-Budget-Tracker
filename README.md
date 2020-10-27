@@ -1,5 +1,7 @@
 # Online-Offline-Budget-Tracker
 
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 ## Deployment Link: 
 https://morning-scrubland-44962.herokuapp.com/
 
@@ -12,3 +14,12 @@ The user will be able to add expenses and deposits to their budget with or witho
 
 ## Business Context
 Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+
+
+## Contribution 
+Rayan Ahmedy 
+
+## Tests
+Run the following command:
+``` npm start ```
+
