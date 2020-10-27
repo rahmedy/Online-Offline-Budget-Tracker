@@ -17,11 +17,13 @@ app.use(express.static("public"));
 
 mongoose.connect("mongodb://localhost/budget", {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useUnifiedTopology:true,
+  useCreateIndex: true
 });
 
 // routes
-app.use(require("../../gt-atl-fsf-pt-06-2020-u-c/18-PWA/02-Homework/Develop/routes/api.js"));
+app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
